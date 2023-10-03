@@ -1,0 +1,11 @@
+X,labels_count,train_size,input_dim/vocab_size,output_dim/embedd_matrix_size,use_W2V,max_sequence_length,Conv1D_units,kernel_sizes,pool_sizes,LSTM_units,Dropout,learning_rate,batch_size,epochs,epochs_stopped,Val_loss,Val_accuracy,training_time_total
+Description_Reduced_Processed,4,0.8,39692,64,False,70,[48],[4],[2],[32],[0.2],0.05,128,8,"range(1, 7)",0.7068400979042053,0.7391141057014465,223.0
+Description_Reduced_Processed,4,0.8,39692,64,False,70,[48],[4],[2],[32],[0.2],0.005,256,8,"range(1, 5)",0.2933302819728851,0.9022459387779236,109.0
+Description_Reduced_Processed,4,0.8,39692,64,False,70,[48],[4],[2],[32],[0.2],0.005,512,8,"range(1, 5)",0.2952137291431427,0.9042460322380066,83.0
+Description_Reduced_Processed,4,0.8,39692,64,False,70,[48],[4],[2],[32],[0.2],0.0001,512,8,"range(1, 8)",0.3198418617248535,0.8937038779258728,166.0
+Description_Processed,4,0.8,49666,64,False,70,[48],[4],[2],[32],[0.25],0.0075,512,8,"range(1, 5)",0.2738974094390869,0.9094545841217041,90.0
+Description_Processed,4,0.8,49666,64,False,70,[48],[4],[2],[32],[0.15],0.008,512,7,"range(1, 5)",0.27820897102355957,0.9075794816017151,92.0
+Description_Processed,4,0.8,49666,64,False,70,[48],[4],[2],[32],[0.15],0.008,256,7,"range(1, 5)",0.2847748398780823,0.9062460660934448,121.0
+Description_Processed,4,0.8,49666,64,False,70,[48],[4],[2],[32],[0.15],0.008,256,2,"range(1, 3)",0.28309908509254456,0.9059960842132568,62.0
+Description_Processed,4,0.8,49666,64,False,70,[48],[4],[2],[32],[0.15],0.008,256,2,"range(1, 3)",0.2806273102760315,0.9079961776733398,58.0
+Description_Processed,4,0.8,49666,64,False,70,[48],[4],[2],[32],[0.15],0.008,256,1,"range(1, 2)",0.2813933193683624,0.9083294868469238,31.0
